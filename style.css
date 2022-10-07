@@ -21,7 +21,7 @@ h1{
 
 .section1::after{
     background-image: url(./img/Netflix-Background-1.jpeg);
-    position: fixed;
+    position: absolute;
     content: "";
     background-size:cover;
     height: 670px;
@@ -48,7 +48,7 @@ h1{
     border-radius: 4px;
     color: whitesmoke;
     font-size: 15px;
-    
+    cursor: pointer;
 }
 select {
     background-color: rgba(0, 0, 0, 0);
@@ -58,6 +58,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; 
+    cursor: pointer;
 }
 
 .hero {
@@ -103,6 +104,7 @@ select {
     background-color: rgb(224, 0, 0);
     color: whitesmoke;
     margin: 10px 0px;
+    cursor: pointer;
     
 }
 .hero .cta input {
@@ -215,3 +217,110 @@ select {
     font-size: 15px;
 }
 
+.section4{
+    background-color: black;
+    height: 465px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .right{
+    position: relative;
+}
+.section4 img{
+    z-index: 50;
+}
+.section4 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(105px) translateY(50px);
+    z-index: 0;
+    
+}
+
+.section4 h1 {
+    margin: 80px 80px 20px;
+
+}
+.section4 h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 5px 80px;
+    font-weight: 400;
+}
+.section5{
+    background-color: black;
+    height: 465px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section5 h1 {
+    margin: 80px 80px 20px;
+
+}
+.section5 h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 5px 80px;
+    font-weight: 400;
+}
+.faq{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.faq h1 {
+    margin: 80px 80px 20px;
+
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+    
+}
+.question:hover{
+    background-color: rgb(224, 0, 0);
+}
+.faq .cta button {
+    font-size: 25px;
+    padding: 15px;
+    background-color: rgb(224, 0, 0);
+    color: whitesmoke;
+    margin: 10px 0px;
+    cursor: pointer;
+    
+}
+.faq .cta input {
+    font-size: 25px;
+    padding: 15px;
+    margin: 10px 0px;
+    
+}
+.footer{
+    background-color:black ;
+    color: rgb(83, 83, 83);
+}
+.tableau {
+    display: flex;
+    color: rgb(83, 83, 83);
+    background-color: black;
+    justify-content: space-around;
+
+}
